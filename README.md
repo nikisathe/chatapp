@@ -44,8 +44,8 @@ The script tag `<script src="/socket.io/socket.io.js"></script>` is used to incl
 The JavaScript code handles the following functionalities:
 
 1.Connecting to the Socket.IO server using ```
-const socket = io()
-```.
+const socket = io()```.
+
 
 2.Accessing the send button and message input field using document.getElementById.
 
