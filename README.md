@@ -49,8 +49,8 @@ const socket = io()```.
 
 2.Accessing the send button and message input field using document.getElementById.
 
-3.Displaying incoming messages in the "messages" <div> using the
-``` socket.on("message", ...)``` function.
+3.Displaying incoming messages in the "messages" <div> using the ``` socket.on("message", ...)``` function.
+
 
 4.Sending user messages to the server using ```
-socket.emit('user-message', message)```` when the send button is clicked.
+socket.emit('user-message', message)``` when the send button is clicked.
